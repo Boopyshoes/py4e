@@ -1,2 +1,2 @@
 # py4e
-Exercise from Python For Everyone 
+Exercises from Python For Everyone 
