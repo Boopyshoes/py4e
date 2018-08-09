@@ -1,3 +1,5 @@
+# Python for Everyone
+# Chapter 4 exercise 7
 def computegrade(score):
     if score < 0.0  or score > 1.0:
         return 'Bad Score:\n  Score must be a number between 0.0 and 1.0'

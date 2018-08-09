@@ -1,12 +1,12 @@
-# Python for Everyone: Chapter 8
-# Exercise 5
+# Python for Everyone
+# Chapter 8 exercise 5
 filename = input('Enter the mailbox file name: ')
 try:
     mailbox = open(filename)
 except:
     print('Mailbox not found:',filename)
     exit()
-    
+
 count = 0
 for line in mailbox:
     words = line.split()
@@ -16,5 +16,3 @@ for line in mailbox:
         count = count + 1
 
 print("There were",count,"lines in the file with 'From' as the first word")
-
-    

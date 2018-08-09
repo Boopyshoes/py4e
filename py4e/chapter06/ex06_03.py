@@ -1,3 +1,5 @@
+# Python for Everyone
+# Chapter 6 exercise 3
 def count(word, letter):
     count = 0
 

@@ -1,5 +1,5 @@
-# Python for Everyone: Chapter 8
-# Exercise 3
+# Python for Everyone
+# Chapter 8 exercise 3
 filename = input('Enter file name: ')
 try:
     fhand = open(filename)
@@ -12,4 +12,3 @@ for line in fhand:
     # print('Debug:', words)
     if len(words) >= 3 and words[0] == 'From':
         print(words[2])
-    

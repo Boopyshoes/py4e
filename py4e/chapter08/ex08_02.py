@@ -1,5 +1,5 @@
-# Python for Everyone: Chapter 8
-# Exercise 2
+# Python for Everyone
+# Chapter 8 exercise 2
 filename = input('Enter file name: ')
 try:
     fhand = open(filename)
@@ -18,4 +18,3 @@ for line in fhand:
     if words[0] != 'From':
         continue
     print(words[2])
-    

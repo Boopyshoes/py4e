@@ -1,3 +1,5 @@
+# Python for Everyone
+# Chapter 5 exercise 2
 count = 0
 while True:
     num = input('Enter a number: ')

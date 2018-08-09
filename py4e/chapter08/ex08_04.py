@@ -1,5 +1,5 @@
-# Python for Everyone: Chapter 8
-# Exercise 4
+# Python for Everyone
+# Chapter 8 exercise 4
 filename = input('Enter file name: ')
 try:
     fhand = open(filename)
@@ -17,5 +17,3 @@ for line in fhand:
 
 word_list.sort()
 print(word_list)
-        
-        

@@ -1,3 +1,5 @@
+# Python for Everyone
+# Chapter 3 exercise 3
 try:
     score = float(input('Enter score: '))
 except:

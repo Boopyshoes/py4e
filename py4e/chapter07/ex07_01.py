@@ -1,3 +1,5 @@
+# Python for Everyone
+# Chapter 7 exercise 1
 # filename = 'mbox-short.txt'
 filename = input('Enter file name:')
 try:

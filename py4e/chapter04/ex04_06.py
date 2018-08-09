@@ -1,3 +1,5 @@
+# Python for Everyone
+# Chapter 4 exercise 6
 def computepay (hours, rate):
     if hours <= 40:
         # no overtime

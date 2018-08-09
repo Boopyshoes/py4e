@@ -1,5 +1,5 @@
-# Python for Everyone: Chapter 8
-# Exercise 1
+# Python for Everyone
+# Chapter 8 exercise 1
 def chop(a_list):
     if len(a_list) >= 2:
         del a_list[0]
@@ -25,4 +25,3 @@ print(middle(colors))
 print(colors)
 chop(colors)
 print(colors)
-

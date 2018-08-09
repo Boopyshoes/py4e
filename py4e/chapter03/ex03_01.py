@@ -1,3 +1,5 @@
+# Python for Everyone
+# Chapter 3 exercise 1
 hrs = input('Enter Hours: ')
 rate = input('Enter Rate: ')
 hrs = float(hrs)

@@ -1,3 +1,5 @@
+# Python for Everyone
+# Chapter 5 exercise 1
 total = 0
 count = 0
 

@@ -1,5 +1,5 @@
-# Python for Everyone: Chapter 8
-# Exercise 6
+# Python for Everyone
+# Chapter 8 exercise 6
 numbers = []
 while True:
     user_input = input('Enter a number: ')
@@ -12,5 +12,3 @@ while True:
 
 print('Maximum:',max(numbers))
 print('Minimum:',min(numbers))
-
-        
