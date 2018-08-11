@@ -1,5 +1,5 @@
 # Python for Everyone
-# Chapter 10 exercise 1
+# Chapter 10 exercise 2
 filename = input("Enter the mailbox file name: ")
 try:
     mailbox = open(filename,'r')
