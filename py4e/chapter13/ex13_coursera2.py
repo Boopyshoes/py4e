@@ -1,5 +1,5 @@
 # Python for Everyone
-# Chapter 13 Coursera Assignment 2
+# Chapter 13 Coursera week 4 assignment 2
 
 from urllib.request import urlopen
 from bs4 import BeautifulSoup

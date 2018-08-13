@@ -1,5 +1,5 @@
 # Python for Everyone
-# Chapter 14 Coursera Assignment 1 (week 5)
+# Chapter 13 Coursera Week 5 Assignment 1
 import urllib.request, urllib.parse, urllib.error
 import xml.etree.ElementTree as ET
 

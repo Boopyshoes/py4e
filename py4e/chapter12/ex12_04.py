@@ -1,6 +1,9 @@
 # Python for Everyone
-# Chapter 13 Coursera week 4 assignment 1
-
+# Chapter 12 exercise 4
+# Create a program which uses urllib to
+# 1)read data from a user specified url
+# 2)count the number of paragraph tags
+# 3)display the total number of paragraph tags
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import ssl
@@ -14,12 +17,8 @@ url = input('Enter url to read - ')
 html = urlopen(url, context=ctx).read()
 soup = BeautifulSoup(html, "html.parser")
 
-count = 0
 total = 0
-tags = soup('span')
-for tag in tags:
-    total += int(tag.contents[0])
-    count += 1
+tags = soup('p')
+total = len(tags)
 
-print('Total:',total)
-print('Count',count)
+print('Total number of paragraph tags:',total)
