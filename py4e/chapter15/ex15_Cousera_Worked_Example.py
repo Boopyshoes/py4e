@@ -1,4 +1,4 @@
-# PY4E/Using Databases with Python course
+ser# PY4E/Using Databases with Python course
 # Worked Example from Week 2
 import sqlite3
 conn = sqlite3.connect('emaildb.sqlite')
